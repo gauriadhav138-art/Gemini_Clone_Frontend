@@ -3,7 +3,7 @@ import './App.css'
 import { useState } from 'react'
 
 function App(){
-  const BASE_URL ='http://127.0.0.1:8000'
+  const BASE_URL ='https://gemini-clone-backend-lrw0.onrender.com'
 
   const [promptText,setPromptText] = useState('')
   const [responseText,setResponseText] = useState('')
